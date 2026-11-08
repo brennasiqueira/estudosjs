@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        .menu-sanduiche {
+            display: inline-flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 8px;
+            border: 0;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .menu-sanduiche span {
+            display: block;
+            width: 26px;
+            height: 3px;
+            background: #222;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha Página</h1>
+        <button class="menu-sanduiche" type="button" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <h2>Conteúdo principal</h2>
+    </main>
+</body>
+</html>
